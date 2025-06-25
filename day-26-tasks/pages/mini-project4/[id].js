@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from "next/head";
 import "../../src/assets/css/style.css";
 
@@ -34,7 +35,7 @@ export default function ArticlePage({ article }) {
             <section className="task-section">
                 <h1>{article.title}</h1>
                 <p>{article.content}</p>
-                <a href="/mini-project4">← Back to Headlines</a>
+                <Link href="/mini-project4/">Back to News</Link>
             </section>
         </div>
     );
