@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import "../../src/assets/css/style.css";
 
 export async function getServerSideProps() {
@@ -15,7 +16,7 @@ export default function SSRPage({ mode, time }) {
             <h1>8. SSR vs SSG Comparison</h1>
             <h2>{mode} Page</h2>
             <p>Time generated at: <strong>{time}</strong></p>
-            <a href="/task8/ssg">Go to SSG Page</a>
+            <Link href="/task8/ssg/">Go to SSG Page</Link>
         </div>
     );
 }
