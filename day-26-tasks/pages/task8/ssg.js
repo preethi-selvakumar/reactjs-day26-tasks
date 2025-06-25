@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import "../../src/assets/css/style.css";
 
 export async function getStaticProps() {
@@ -15,7 +16,7 @@ export default function SSGPage({ mode, time }) {
             <h1>8. SSR vs SSG Comparison</h1>
             <h2>{mode} Page</h2>
             <p>Time generated at: <strong>{time}</strong></p>
-            <a href="/task8/ssr">Go to SSR Page</a>
+            <Link href="/task8/ssr/">Go to SSR Page</Link>
         </div>
     );
 }
