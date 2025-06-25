@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 28px;
+    margin: 30px 0;
+    color: #2c3e50;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.task-section {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+hr {
+    margin: 30px 0;
+    border: 1px solid #ccc;
+}
+
+.blog-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.task-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.task-section li {
+    margin-bottom: 1rem;
+}
